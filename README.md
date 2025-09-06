@@ -76,13 +76,13 @@ Tüm analizlerin ve diğer grafiklerin tamamına proje içerisinde yer alan Pyth
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
-**Python**
+- **Python**
 
-**Pandas, NumPy** : Veri İşleme
+- **Pandas, NumPy** : Veri İşleme
 
-**Matplotlib, Seaborn, Plotly, Missingno** : Görselleştirme 
+- **Matplotlib, Seaborn, Plotly, Missingno** : Görselleştirme 
 
-**Scikit-learn (SimpleImputer, OneHotEncoder, StandardScaler)**: Ön İşleme 
+- **Scikit-learn (SimpleImputer, OneHotEncoder, StandardScaler)**: Ön İşleme 
 
 ---
 
