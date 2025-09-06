@@ -4,7 +4,7 @@
 ---
 
 ## 📖 Proje Özeti
-Bu proje, Pusula Intern Programı kapsamında verilen **Data Science Case Study** çalışmasıdır.  
+Bu proje, Pusula Talent Programı kapsamında verilen **Data Science Case Study** çalışmasıdır.  
 Veri seti, **Fiziksel Tıp ve Rehabilitasyon** alanına ait 2235 gözlem ve 13 sütundan oluşmaktadır.  
 Hedef değişken: **`TedaviSuresi`**  
 
