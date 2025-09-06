@@ -16,7 +16,7 @@ df = pd.read_excel("Talent_Academy_Case_DT_2025.xlsx")
 print(df)
 
 
-# 3. Genel Bakış
+# Genel Bakış
 print("🔹 Veri Boyutu:", df.shape)
 print("🔹 Kolonlar:", df.columns.tolist())
 print("\n🔹 Veri Tipleri:\n", df.dtypes)
@@ -25,7 +25,9 @@ print("\n🔹 Eksik Değerler:\n", df.isnull().sum())
 df.info()
 df.describe()
 
-# 4. Eksik Veri Analizi
+
+
+# Eksik Veri Analizi
 msno.matrix(df)
 plt.title('Eksik Veri Matrisi', fontsize=16, fontweight='bold')
 plt.tight_layout()
@@ -42,7 +44,9 @@ categorical_cols = df.select_dtypes(include=["object"]).columns
 print(f"Sayısal kolonlar: {numeric_cols.tolist()}")
 print(f"Kategorik kolonlar: {categorical_cols.tolist()}")
 
-#Eksik Değer Doldurma
+
+
+# Eksik Değer Doldurma
 # Sayısal kolonlar
 imputer_num = SimpleImputer(strategy="median")
 df[numeric_cols] = imputer_num.fit_transform(df[numeric_cols])
@@ -54,7 +58,7 @@ df
 
 
 
-#Encoding(OneHotEncoder ile encoding)
+# Encoding(OneHotEncoder ile encoding)
 encoder = OneHotEncoder(drop="first", sparse_output=False, handle_unknown="ignore")
 categorical_cols = df.select_dtypes(include=["object"]).columns
 encoded_array = encoder.fit_transform(df[categorical_cols])
@@ -65,7 +69,7 @@ df_final.head()
 
 
 
-#Ölçekleme
+# Ölçekleme
 numeric_cols = df_final.select_dtypes(include=["int64", "float64"]).columns
 scaler = StandardScaler()
 df_scaled = df_final.copy()
@@ -74,7 +78,7 @@ df_scaled.head()
 
 
 
-# 5. Sayısal Değişken Analizi
+# Sayısal Değişken Analizi
 numeric_cols = df.select_dtypes(include=[np.number]).columns
 
 for col in numeric_cols:
@@ -86,9 +90,7 @@ for col in numeric_cols:
     plt.subplot(1,2,2)
     sns.boxplot(x=df[col])
     plt.title(f"{col} Boxplot")
-
     plt.show()
-
 # Korelasyon
 plt.figure(figsize=(10,6))
 sns.heatmap(df[numeric_cols].corr(), annot=True, cmap="coolwarm")
@@ -97,8 +99,7 @@ plt.show()
 
 
 
-
-# 6. Kategorik Değişken Analizi
+# Kategorik Değişken Analizi
 categorical_cols = df.select_dtypes(include=["object"]).columns
 
 for col in categorical_cols:
@@ -109,7 +110,7 @@ for col in categorical_cols:
     
     
     
-# 7. Hedef Değişken (TedaviSuresi)
+# Hedef Değişken (TedaviSuresi)
 plt.figure(figsize=(10,5))
 sns.histplot(df["TedaviSuresi"], kde=True)
 plt.title("Tedavi Süresi Dağılımı(Seans Dağılımı)")
@@ -122,6 +123,7 @@ plt.show()
 
 
 
+#Tedavi Süresi ile Korelasyon Analizi
 df["TedaviSuresi"] = pd.to_numeric(df["TedaviSuresi"], errors="coerce")
 numeric_df = df.select_dtypes(include=[np.number])
 
@@ -133,7 +135,8 @@ plt.show()
 
 
 
-# 9. Grup Bazlı Analizler
+# Grup Bazlı Analizler
 print(df.groupby("Bolum")["TedaviSuresi"].mean().sort_values())
 
 px.scatter(df, x="Yas", y="TedaviSuresi", color="Cinsiyet", title="Yaş vs Tedavi Süresi (Cinsiyete Göre)")
+
