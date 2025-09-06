@@ -66,7 +66,9 @@ Veri setinde yer alan temel kolonlar:
 - Cinsiyet dağılımı dengesiz olabilir, bu nedenle modelleme aşamasında dikkat edilmesi gerekebilir.
    <img width="800" height="400" alt="CinsiyetDagilimi" src="https://github.com/user-attachments/assets/a9382bd8-372c-41c7-b635-889e540029ce" />
 
-- Bazı bölümlerde (`Bolum`) tedavi sürelerinin ortalaması diğerlerinden daha yüksektir → bölüm faktörü tedavi süresini etkileyebilir.  
+- Veri setindeki hastaların büyük çoğunluğu Rehabilitasyon ve Solunum Merkezi bölümündedir ve bu bölümdeki hasta sayısı diğer tüm bölümlerin toplamından fazladır.
+    <img width="1920" height="951" alt="BolumDagılımı" src="https://github.com/user-attachments/assets/60d4dea3-da87-4756-a60c-812f79d1ecfe" />
+
 - Eksik değerler median/mode yöntemiyle başarıyla doldurulmuştur.  
 
 ---
