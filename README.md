@@ -19,7 +19,7 @@ Not: Modelleme yapılması zorunlu olmadığı için, yalnızca veri hazırlık 
 ## 🔍 Veri Seti Hakkında
 Veri setinde yer alan temel kolonlar:  
 
-- `HastaNo`: Hasta ID (anonimleştirilmiş)  
+- `HastaNo`: Hasta ID  
 - `Yas`: Yaş  
 - `Cinsiyet`: Cinsiyet  
 - `KanGrubu`: Kan grubu  
