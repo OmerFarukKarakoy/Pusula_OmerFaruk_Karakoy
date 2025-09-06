@@ -64,7 +64,7 @@ Veri setinde yer alan temel kolonlar:
    <img width="1000" height="400" alt="YasDagilimi" src="https://github.com/user-attachments/assets/9a9460d7-92db-4e00-8f73-d20b31acb0a6" />
 
 - Cinsiyet dağılımı dengesiz olabilir, bu nedenle modelleme aşamasında dikkat edilmesi gerekebilir.
--   <img width="800" height="400" alt="CinsiyetDagilimi" src="https://github.com/user-attachments/assets/a9382bd8-372c-41c7-b635-889e540029ce" />
+   <img width="800" height="400" alt="CinsiyetDagilimi" src="https://github.com/user-attachments/assets/a9382bd8-372c-41c7-b635-889e540029ce" />
 
 - Bazı bölümlerde (`Bolum`) tedavi sürelerinin ortalaması diğerlerinden daha yüksektir → bölüm faktörü tedavi süresini etkileyebilir.  
 - Eksik değerler median/mode yöntemiyle başarıyla doldurulmuştur.  
