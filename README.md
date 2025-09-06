@@ -1,4 +1,4 @@
-**Ad Soyad:** Ömer Faruk Karakoy  
+**Ad Soyad:** Ömer Faruk Karaköy  
 **E-posta:** omerfarukkarakoy@hotmail.com  
 
 ---
