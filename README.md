@@ -60,7 +60,7 @@ Veri setinde yer alan temel kolonlar:
 ---
 
 ## 📊 Bulgular (Kısa Özet)
-- Yaş değişkeni ile tedavi süresi arasında zayıf ama pozitif bir korelasyon gözlemlendi.
+- Yaş değişkeni kabaca normal bir dağılım göstermektedir ve en yoğun grup 40-60 yaş aralığındadır.
    <img width="1000" height="400" alt="YasDagilimi" src="https://github.com/user-attachments/assets/9a9460d7-92db-4e00-8f73-d20b31acb0a6" />
 
 - Cinsiyet dağılımı dengesiz olabilir, bu nedenle modelleme aşamasında dikkat edilmesi gerekebilir.  
