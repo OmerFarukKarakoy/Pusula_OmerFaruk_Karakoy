@@ -67,7 +67,7 @@ Veri setinde yer alan temel kolonlar:
 
 ---
 
-## Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 -**Python**
 
 -**Pandas, NumPy** : Veri İşleme
