@@ -1,0 +1,1 @@
+# Pusula_OmerFaruk_Karakoy
