@@ -87,7 +87,12 @@ Tüm analizlerin ve diğer grafiklerin tamamına proje içerisinde yer alan Pyth
 ---
 
 ## 🚀 Çalıştırma Talimatları
-1. Bu repository’i bilgisayarınıza indirin.  
+1. Bu repository’i bilgisayarınıza indirin veya klonlayın:  
+   ```bash
+   git clone https://github.com/OmerFarukKarakoy/Pusula_OmerFaruk_Karakoy.git
+   cd Pusula_OmerFaruk_Karakoy
 2. Gerekli kütüphaneleri yükleyin:  
    ```bash
    pip install pandas numpy matplotlib seaborn plotly missingno scikit-learn
+
+
