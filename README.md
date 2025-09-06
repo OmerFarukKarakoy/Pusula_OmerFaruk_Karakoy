@@ -1,5 +1,5 @@
 **Ad Soyad:** Ömer Faruk Karakoy  
-**E-posta:** ornek@mail.com  
+**E-posta:** omerfarukkarakoy@hotmail.com  
 
 ---
 
