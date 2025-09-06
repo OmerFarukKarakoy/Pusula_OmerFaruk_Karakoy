@@ -60,7 +60,9 @@ Veri setinde yer alan temel kolonlar:
 ---
 
 ## 📊 Bulgular (Kısa Özet)
-- Yaş değişkeni ile tedavi süresi arasında zayıf ama pozitif bir korelasyon gözlemlendi.  
+- Yaş değişkeni ile tedavi süresi arasında zayıf ama pozitif bir korelasyon gözlemlendi.
+   <img width="1000" height="400" alt="YasDagilimi" src="https://github.com/user-attachments/assets/9a9460d7-92db-4e00-8f73-d20b31acb0a6" />
+
 - Cinsiyet dağılımı dengesiz olabilir, bu nedenle modelleme aşamasında dikkat edilmesi gerekebilir.  
 - Bazı bölümlerde (`Bolum`) tedavi sürelerinin ortalaması diğerlerinden daha yüksektir → bölüm faktörü tedavi süresini etkileyebilir.  
 - Eksik değerler median/mode yöntemiyle başarıyla doldurulmuştur.  
