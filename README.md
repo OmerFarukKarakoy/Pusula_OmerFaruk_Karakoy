@@ -69,8 +69,11 @@ Veri setinde yer alan temel kolonlar:
 
 ## Kullanılan Teknolojiler
 -Python
+
 -Veri İşleme: Pandas, NumPy
+
 -Görselleştirme: Matplotlib, Seaborn, Plotly, Missingno
+
 -Ön İşleme: Scikit-learn (SimpleImputer, OneHotEncoder, StandardScaler)
 
 ---
