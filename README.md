@@ -4,7 +4,7 @@
 ---
 
 ## 📖 Proje Özeti
-Bu proje, Pusula Talent Programı kapsamında verilen **Data Science Case Study** çalışmasıdır.  
+Bu proje, Pusula Talent Academy Programı kapsamında verilen **Data Science Case Study** çalışmasıdır.  
 Veri seti, **Fiziksel Tıp ve Rehabilitasyon** alanına ait 2235 gözlem ve 13 sütundan oluşmaktadır.  
 Hedef değişken: **`TedaviSuresi`**  
 
@@ -59,7 +59,9 @@ Veri setinde yer alan temel kolonlar:
 
 ---
 
-## 📊 Bulgular (Özet)
+## 📊 Öne Çıkan Bulgular
+Aşağıda, yapılan Exploratory Data Analysis (EDA) çalışmasından seçilmiş bazı örnek görseller yer almaktadır.  
+Tüm analizlerin ve diğer grafiklerin tamamına proje içerisinde yer alan Python kod dosyasından ulaşabilirsiniz.
 - Yaş değişkeni kabaca normal bir dağılım göstermektedir ve en yoğun grup 40-60 yaş aralığındadır.
    <img width="1000" height="400" alt="YasDagilimi" src="https://github.com/user-attachments/assets/9a9460d7-92db-4e00-8f73-d20b31acb0a6" />
 
